@@ -9,6 +9,10 @@ from handlers.callback.callback_handler import call_back
 from handlers.FSM.user_states import state_one, state_thr, state_two
 from handlers.FSM.fsm_states import Form
 
+"""
+Main bot file | Bot start file 
+
+"""
 
 async def start():
     logging.basicConfig(level=logging.INFO,
@@ -18,7 +22,6 @@ async def start():
                         )
 
     bot = Bot(token=bot_token, parse_mode='HTML')
-
 
     dp = Dispatcher()
 
