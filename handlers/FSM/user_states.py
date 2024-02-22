@@ -8,7 +8,7 @@ from handlers.keyboards.user_keyboard import confirm_req_menu
 
 
 """
-Хендлер обрабатывающий fsm_states
+Хендлер fsm_states
 
 """
 
