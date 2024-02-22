@@ -1,3 +1,7 @@
+This bot is a template. \
+It can be changed or built into the main bot, \
+access to which will be opened only after the application is accepted.
+
 ****Requirements****
 
 aiogram==3.2.2 \
